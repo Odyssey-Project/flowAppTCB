@@ -16,5 +16,7 @@
   "torizon_app_root": "/home/torizon",
   "tcb.version": "beta",
   "tcb.packageName": "tcb",
-  "tcb.fleetName": ""
+  "tcb.fleetName": "Ninja Turtles",
+  "tcb.clientId": "api-v2_74568cbd_247138cf-337f-4804-862f-d9775879b0a8",
+  "tcb.clientSecret": "secret"
 }
