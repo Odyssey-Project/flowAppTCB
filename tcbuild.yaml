@@ -19,7 +19,7 @@ customization:
   # Customization section items.
   splash-screen: splashScreen.png
   filesystem:
-     - changes1/
+    - changes1
 
 output:
   # Output section items (required).
