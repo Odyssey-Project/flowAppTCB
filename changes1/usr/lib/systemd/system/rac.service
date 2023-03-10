@@ -1,0 +1,11 @@
+[Unit]
+Description=Start the Remote Access Client 
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/rac
+Environment="CONFIG_FILE=/usr/etc/rac/client.toml"
+                               
+[Install]
+WantedBy=multi-user.target

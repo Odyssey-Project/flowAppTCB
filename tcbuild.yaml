@@ -7,17 +7,19 @@ input:
   # ⚠️ change it for your needs
   easy-installer:
     toradex-feed:
-      version: "6.2.0"
-      release: nightly
+      version: "5.7.0"
+      release: monthly
       machine: verdin-imx8mm
       distro: torizon
       variant: torizon-core-docker
-      build-number: 201
-      build-date: 20230308
+      build-number: 24
+      build-date: 202206
 
 customization:
   # Customization section items.
   splash-screen: splashScreen.png
+  filesystem:
+     - changes1/
 
 output:
   # Output section items (required).

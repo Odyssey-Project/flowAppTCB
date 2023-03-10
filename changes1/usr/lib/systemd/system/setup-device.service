@@ -1,0 +1,11 @@
+[Unit]
+Description=Setup device 
+Before=rac.service
+ConditionPathExists=!/home/torizon/.ssh/
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/setup-device.sh
+                               
+[Install]
+WantedBy=rac.service
